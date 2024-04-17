@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Regression Project</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Regression Project</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/predict">Predict</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>About House Prices Regression Project</h2>
+            <p>Source: Kaggle (link: <a href="https://www.kaggle.com/datasets/lespin/house-prices-dataset">House Prices Dataset</a>)</p>
+            <p>The project uses the House Prices dataset obtained from Kaggle. This dataset contains information about various features of houses and their corresponding sale prices.</p>
+            <p>The project covers the following steps:</p>
+            <ul>
+                <li>Data Loading and Preprocessing: Loading the dataset into a Pandas DataFrame, handling missing values, encoding categorical variables, and scaling numerical variables.</li>
+                <li>Data Splitting: Splitting the data into training, validation, and testing sets using the train_test_split function from scikit-learn.</li>
+                <li>Model Building and Hyperparameter Tuning: Building Random Forest, Gradient Boosting, and K Neighbors Regression models using scikit-learn. Hyperparameters are tuned using GridSearchCV.</li>
+                <li>Model Evaluation: Evaluating the performance of the models on the validation set using the Root Mean Squared Error (RMSE) metric.</li>
+                <li>Model Training on Combined Data: Retraining the best models on the combined training and validation data.</li>
+                <li>Model Evaluation on Test Set: Evaluating the retrained models on the test set and calculating the RMSE for each model.</li>
+                <li>Model Saving: Saving the trained models for future use.</li>
+            </ul>
+            <p>By the end of this project, you will have a good understanding of how to build, evaluate, and optimize regression models using Python and scikit-learn.</p>
+            <p>Feel free to navigate to other pages using the links in the navigation bar.</p>
+        </section>
+    </main>
+</body>
+</html>

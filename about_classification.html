@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Dataset</title>
+</head>
+<body>
+    <h1>About the Dataset: Titanic Dataset</h1>
+    <p>This page provides information about the Titanic dataset used in the project.</p>
+    <h2>Source</h2>
+    <p>The dataset for classification analysis was obtained from Kaggle. The dataset includes a CSV file named titanic-train.csv, which contains information about passengers aboard the Titanic.</p>
+    <p>Source: Kaggle (link: <a href="https://www.kaggle.com/c/titanic">Titanic Dataset</a>)</p>
+    <p>Data File: titanic-train.csv</p>
+    <h2>Variable Definitions</h2>
+    <ul>
+        <li><strong>PassengerId:</strong> Unique identifier for each passenger.</li>
+        <li><strong>Pclass:</strong> Ticket class (1st, 2nd, 3rd).</li>
+        <li><strong>Name:</strong> Passenger's name.</li>
+        <li><strong>Sex:</strong> Passenger's gender.</li>
+        <li><strong>Age:</strong> Passenger's age in years.</li>
+        <li><strong>SibSp:</strong> Number of siblings/spouses aboard the Titanic.</li>
+        <li><strong>Parch:</strong> Number of parents/children aboard the Titanic.</li>
+        <li><strong>Ticket:</strong> Ticket number.</li>
+        <li><strong>Fare:</strong> Passenger fare.</li>
+        <li><strong>Cabin:</strong> Cabin number.</li>
+        <li><strong>Embarked:</strong> Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).</li>
+    </ul>
+   
+    {{ dataset_info|safe }}
+</body>
+</html>

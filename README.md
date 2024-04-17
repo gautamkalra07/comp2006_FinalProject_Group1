@@ -1,4 +1,4 @@
-# comp2006_FinalProject_Group1
+# Project Name
 
 Project consist of two dataset, one for classification that is titanic data and other is for regression that is houseprices data.
 
@@ -20,7 +20,6 @@ other for regression which covering three models and calculating rmse score
 
 for classification dataset, from provided link Source: Kaggle (link:"https://www.kaggle.com/datasets/lespin/house-prices-dataset) download data run code it will automatically created other files needed for next steps and run app.py file which will run on localhost:5000 and shows welcome page, about page and prediction page.
 for classification dataset, from provided link Source: Kaggle (link:"https://www.kaggle.com/c/titanic/data) download data run code it will automatically created other files needed for next steps and run app.py file which will run on localhost:5000 and shows welcome page, about page and prediction page.
-
 
 
 

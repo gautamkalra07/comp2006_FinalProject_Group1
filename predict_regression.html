@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict with Gradient Boosting Regressor Model</title>
+</head>
+<body>
+    <h1>Predict with Gradient Boosting Regressor Model</h1>
+    <p>This page allows you to make predictions using the Gradient Boosting Regressor model.</p>
+    <p>Enter your data below to get a prediction:</p>
+    <!-- User input form -->
+    <form action="/predict_regression_result" method="post">
+
+        <label for="Id">Id:</label>
+        <input type="number" id="Id" name="Id" required><br>
+        
+        <label for="MSSubClass">MSSubClass:</label>
+        <input type="number" id="MSSubClass" name="MSSubClass" required><br>
+        
+        <label for="LotFrontage">LotFrontage:</label>
+        <input type="number" id="LotFrontage" name="LotFrontage" required><br>
+        
+        <label for="LotArea">LotArea:</label>
+        <input type="number" id="LotArea" name="LotArea" required><br>
+        
+        <label for="OverallQual">OverallQual:</label>
+        <input type="number" id="OverallQual" name="OverallQual" required><br>
+        
+        <label for="OverallCond">OverallCond:</label>
+        <input type="number" id="OverallCond" name="OverallCond" required><br>
+        
+        <label for="YearBuilt">YearBuilt:</label>
+        <input type="number" id="YearBuilt" name="YearBuilt" required><br>
+        
+        <label for="YearRemodAdd">YearRemodAdd:</label>
+        <input type="number" id="YearRemodAdd" name="YearRemodAdd" required><br>
+        
+        <label for="MasVnrArea">MasVnrArea:</label>
+        <input type="number" id="MasVnrArea" name="MasVnrArea" required><br>
+        
+        <label for="BsmtFinSF1">BsmtFinSF1:</label>
+        <input type="number" id="BsmtFinSF1" name="BsmtFinSF1" required><br>
+        
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
