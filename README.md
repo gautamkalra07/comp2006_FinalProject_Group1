@@ -1,4 +1,4 @@
-# Project Name
+# comp2006_FinalProject_Group1
 
 Project consist of two dataset, one for classification that is titanic data and other is for regression that is houseprices data.
 
